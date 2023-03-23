@@ -7,10 +7,9 @@
 // 1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
 // 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 
-public class Kata{
-  
-  public static String binaryAddition(int a, int b){
-    //your code here
+public class Kata {
+
+  public static String binaryAddition(int a, int b) {
     return Integer.toBinaryString(a + b);
   }
 }
