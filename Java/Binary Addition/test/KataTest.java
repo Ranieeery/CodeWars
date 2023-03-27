@@ -4,7 +4,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class KataTest {
-
     @ParameterizedTest(name = "a = {1}, b = {2}")
     @CsvSource(textBlock = """
             10,    1,   1
